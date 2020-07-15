@@ -1,1 +1,1 @@
-document.write("Hello World")
+document.write("<p class='text-3xl text-justify text-gray-300'>Hello World</p>")
