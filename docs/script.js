@@ -1,3 +1,6 @@
 const btn = document.querySelector('#btn')
 const menu = document.querySelector('#menu')
-btn.addEventListener('click', () => {console.log('Hello World')})
+btn.addEventListener('click', () => {
+    console.log('Hello World')
+    menu.classList.toggle('hidden')
+})
