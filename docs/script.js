@@ -1,1 +1,3 @@
-document.write("<p class='text-3xl text-justify text-gray-300'>Hello World</p>")
+const btn = document.querySelector('#btn')
+const menu = document.querySelector('#menu')
+btn.addEventListener('click', () => {console.log('Hello World')})
